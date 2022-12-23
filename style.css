@@ -1,0 +1,50 @@
+
+p,h2{
+    margin:0;
+}
+
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family:'OUTFIT',sans-serif;
+    display:flex ;
+    justify-content: center;
+    align-items: center;    
+    height:100vh;
+}
+.product-qrcard{
+    width: 375px;
+    height:600px;
+    background-color: white;
+    border-radius: 25px;
+   margin: 100px;
+}
+.product-image img{
+    width:335px;
+    padding:20px;
+    padding-right:20px;
+    border-radius:30px;
+    
+  
+}
+    
+    
+
+.product_content{
+    padding: 30px;
+    display:grid;
+    gap:0px;
+    text-align: center;
+
+}
+
+.product_description{
+    color:hsl(228,12%,48%);
+    padding: 29px;
+    line-height: 1.6;
+    font-size: 15px;
+
+}
+img{
+    border-radius: 10px;
+}
